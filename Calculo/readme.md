@@ -1,5 +1,3 @@
-# Temáticas del Cuaderno de Aprendizaje de Octave
-
 ## 1. Fundamentos Básicos
 - Sintaxis básica  
 - Comandos esenciales
@@ -29,7 +27,7 @@
 
 # Recomendaciones para uso
 
-- Comenzar con cuadernos repositorio Algebra
+- Comenzar con cuadernos repositorio Álgebra
 - Luego continuar con este cuaderno
 - Personalizar con ejemplos propios
 - Expandir con los temas avanzados sugeridos
