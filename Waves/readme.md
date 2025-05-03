@@ -4,16 +4,14 @@ Repositorio con dos rutinas de Octave para procesamiento de audio:
 1. **waves. Análisis Básico**
 2. **waves.v.2. Descomposición en Componentes Sinusoidales**
 
-## Estructura del Repositorio
-
-.
-├── waves.m # Análisis espectral básico
-├── waves.v.2.m # Descomposición del audio en senos/cosenos
-└── audio.wav # Archivo de ejemplo 
+## Estructura del Repositorio.
+- ├── waves.m # Análisis espectral básico
+- ├── waves.v.2.m # Descomposición del audio en senos/cosenos
+- └── audio.wav # Archivo de ejemplo 
 
 ---
 
-## Script : `waves.m`
+## Script: `waves.m`
 **Propósito**: Cargar audio, ver onda y espectro
 
 ### Características Clave
@@ -67,7 +65,14 @@ pkg install -forge audio # Para grabación/reproducción de audio
 
 ---
 
-## 📄 Licencia
+## Oportunidades de mejora 
+- Hacer un zoom a las componentes individuales 
+- Extraer bloque de datos de ese zoom 
+- Comparar ese zoom con la función analítica de seno y coseno
+
+---
+
+## Licencia
 Este proyecto se distribuye bajo licencia MIT. Ver archivo `LICENSE` para más detalles.
 
 ---
@@ -77,3 +82,4 @@ Este proyecto se distribuye bajo licencia MIT. Ver archivo `LICENSE` para más d
 - Mantén el código compatible con Octave
 - Documenta nuevos features en el README
 - Incluye ejemplos de uso
+
