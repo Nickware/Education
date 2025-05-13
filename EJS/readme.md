@@ -1,12 +1,12 @@
 ---
 
-# Simulación de la función sin(x) usando EJSS (Easy Java/JavaScript Simulations) (En edición)
+# Simulación de la función sin(x) usando EJS (Easy Java Simulations) (En edición)
 
 Este proyecto muestra cómo crear una simulación interactiva de la función \$ \sin(x) \$ utilizando Easy Java Simulations
 
 ## Requisitos
 
-- Descargar [EJSS/EJSSS](https://www.um.es/fem/EjsWiki/pmwiki.php) e instalar en el equipo.
+- Descargar [EJS](https://www.um.es/fem/EjsWiki/pmwiki.php) e instalar en el equipo.
 
 ---
 
@@ -79,9 +79,9 @@ Agregar elementos interactivos en la pestaña **Vista GUI**:
 
 ## Recursos adicionales
 
-- [Documentación oficial de EJSS](https://www.um.es/fem/EjsWiki/pmwiki.php)
+- [Documentación oficial de EJS](https://www.um.es/fem/EjsWiki/pmwiki.php)
 - [Repositorio Open Source Physics](https://www.compadre.org/osp/)
 
 ---
 
-Deberá haber creado su primera simulación de \$ \sin(x) \$ con EJSS.
+Deberá haber creado su primera simulación de \$ \sin(x) \$ con EJS.
