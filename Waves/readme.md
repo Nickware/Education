@@ -23,11 +23,9 @@ Repositorio con dos rutinas de Octave para procesamiento de audio:
 - Detección automática de cinco (5) frecuencias principales
 
 ### Uso
-
+```matlab
 octave waves.m
-
----
-
+```
 ## Script : `waves.v.2`
 **Propósito**: Carga el archivo de audio, análisis de fase y magnitud mediante FFT y descomposición en  componentes individuales de seno/coseno.
 
@@ -41,16 +39,20 @@ octave waves.m
 - Salida en terminal de frecuencias y magnitudes
 
 ### Uso
-
+```matlab
 octave waves.v.2.m
-
+```
 ## Prerrequisitos
 1. **Octave** (versión 7.3.0 o superior)
 2. Paquetes de Octave:
-
+> Paquete signal
+```matlab
 pkg install -forge signal # Para funciones avanzadas de procesamiento
+```
+> Paquete signal
+```matlab
 pkg install -forge audio # Para grabación/reproducción de audio
-
+```
 ---
 
 ## Instrucciones de Uso
@@ -79,7 +81,6 @@ Este proyecto se distribuye bajo licencia MIT. Ver archivo `LICENSE` para más d
 
 ## Futuras Contribuciones
 ¡Se aceptan contribuciones vía pull requests! Por favor:
-- Mantén el código compatible con Octave
-- Documenta nuevos features en el README
-- Incluye ejemplos de uso
-
+- Mantener el código compatible con Octave
+- Documentar nuevos aportes en el README
+- Incluir ejemplos de uso
