@@ -2,7 +2,7 @@
 
 ## Descripción general
 
-El repositorio **Education** de Nickware es una colección de materiales, recursos y herramientas educativas orientadas principalmente a la informática, la programación y el autoaprendizaje. Su objetivo es servir como una base de conocimiento y práctica para estudiantes, autodidactas y entusiastas de la física, las matemáticas y otras áreas del conocimiento.
+Este repositorio es una colección de materiales, recursos y herramientas educativas orientadas principalmente a ramas de la física, las matemáticas, informática, la programación y el autoaprendizaje. Su objetivo es servir como una base de conocimiento y práctica para estudiantes, autodidactas y entusiastas de la física, las matemáticas y otras áreas del conocimiento.
 
 ## Contenido principal
 
@@ -21,11 +21,11 @@ El repositorio **Education** de Nickware es una colección de materiales, recurs
 ## Estructura típica del repositorio
 
 - `/Algebra`  
-  Cuadernos en Octave con aplicaciones básicas de Algebra.
+  Cuadernos en Octave con aplicaciones básicas a  vectores, matrices, sistemas de ecuaciones lineales.
 - `/Calculo`  
-  Cuadernos en Octave con aplicaciones básicas de Calculo.
+  Cuadernos en Octave con aplicaciones básicas de  límites, continuidad, derivadas, funciones, polinomios, gráficas.
 - `/Física`  
-  Cuadernos en Octave con aplicaciones básicas de Física.
+  Cuadernos en Octave con aplicaciones básicas de cinemática.
 - `/Fluidos`  
   Scripts en C++, Octave, Scilab.
  - `/Waves`  
@@ -37,7 +37,7 @@ El repositorio **Education** de Nickware es una colección de materiales, recurs
 
 - Estudiantes de informática y programación.
 - Docentes y formadores en áreas STEM.
-- Autodidactas interesados en mejorar sus habilidades técnicas.
+- Autodidactas interesados en mejorar sus habilidades técnicas en Octave.
 
 ## Cómo usar el repositorio
 
@@ -51,6 +51,3 @@ El repositorio **Education** de Nickware es una colección de materiales, recurs
 Consultar el archivo `LICENSE` del repositorio para conocer las condiciones de uso y distribución.
 
 ---
-
-> **Nota:**  
-> Este resumen se basa en la estructura y propósito general del repositorio. Para información detallada y actualizaciones, consultar directamente el [repositorio en GitHub](https://github.com/Nickware/Education).
