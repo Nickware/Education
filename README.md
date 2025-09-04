@@ -2,7 +2,7 @@
 
 ## Descripción general
 
-Este repositorio es una colección de materiales, recursos y herramientas educativas orientadas principalmente a ramas de la física, las matemáticas, informática, la programación y el autoaprendizaje. Su objetivo es servir como una base de conocimiento y práctica para estudiantes, autodidactas y entusiastas de la física, las matemáticas y otras áreas del conocimiento.
+Este repositorio es una colección de materiales, recursos y herramientas educativas orientados principalmente a ramas de la física, las matemáticas, la informática, la programación y el autoaprendizaje. Su objetivo es servir como una base de conocimiento y práctica para estudiantes, autodidactas y entusiastas de la física, las matemáticas y otras áreas del conocimiento.
 
 ## Contenido principal
 
@@ -24,6 +24,10 @@ Este repositorio es una colección de materiales, recursos y herramientas educat
   Cuadernos en Octave con aplicaciones básicas a  vectores, matrices, sistemas de ecuaciones lineales.
 - `/Calculo`  
   Cuadernos en Octave con aplicaciones básicas de  límites, continuidad, derivadas, funciones, polinomios, gráficas.
+- `/EJS`
+  Easy Java Simulations
+- `/Estadistica/consulta`
+   Simulaciones de aplicaciones en estadística 
 - `/Física`  
   Cuadernos en Octave con aplicaciones básicas de cinemática.
 - `/Fluidos`  
