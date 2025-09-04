@@ -1,4 +1,3 @@
-# Temáticas del Cuaderno de Aprendizaje: 
 # Fundamentos de Octave para Curso Introductorio en Física
 
 ## 1. Configuración Inicial y Fundamentos
