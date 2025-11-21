@@ -1,4 +1,4 @@
-# Educacion
+# Education
 
 ## Descripción general
 
