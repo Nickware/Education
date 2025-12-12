@@ -11,7 +11,7 @@ Este script es un **cuaderno introductorio interactivo en MATLAB** diseñado par
    Introduce funciones trigonométricas (`sin`, `cos`) y su visualización mediante `plot`. Muestra cómo crear gráficos simples y combinados, con leyendas, títulos, etiquetas de ejes y cuadrícula, destacando buenas prácticas de visualización.
 
 3. **Límites y sucesiones**:  
-   Ilustra numéricamente la definición del número *e* como límite de la sucesión \((1 + 1/n)^n\), usando funciones anónimas y potencias de 10 para observar la convergencia, con formato de salida ajustado para mayor precisión.
+   Ilustra numéricamente la definición del número *e* como límite de la sucesión $\((1 + 1/n)^n\)$, usando funciones anónimas y potencias de 10 para observar la convergencia, con formato de salida ajustado para mayor precisión.
 
 4. **Series y sumatorias**:  
    Trabaja con series convergentes y divergentes. Calcula sumas parciales de una serie racional mediante dos enfoques (vectorizado con `cumsum` y bucle `for`), y compara la divergencia lenta de la serie armónica al sumar hasta 1,000 y 1,000,000 términos.
@@ -20,7 +20,7 @@ Este script es un **cuaderno introductorio interactivo en MATLAB** diseñado par
    Visualiza curvas no funcionales: una **cicloide** (paramétrica) y una **limaçon** (en coordenadas polares), mostrando dos formas de graficar polares: manualmente (convirtiendo a cartesianas) y con la función `polar`.
 
 6. **Gráficas implícitas**:  
-   Usa `ezplot` para graficar una ecuación implícita en dos variables, útil para curvas que no pueden expresarse fácilmente como \(y = f(x)\).
+   Usa `ezplot` para graficar una ecuación implícita en dos variables, útil para curvas que no pueden expresarse fácilmente como $\(y = f(x)\)$.
 
 7. **Consejos y ejercicios adicionales**:  
    Ofrece recomendaciones de programación eficiente (vectorización, preasignación), propone ejercicios prácticos para reforzar el aprendizaje y sugiere comandos útiles (`doc`) para explorar la documentación de MATLAB.
