@@ -13,11 +13,11 @@ Esta función, conocida como el **sinc bidimensional**, es famosa por su pico ce
 ### Funcionamiento del script en C++
 
 - **Definición matemática:**
-La función `f(double x, double y)` calcula el valor de \$ z \$ para cada par $(x, y)$, manejando el caso especial \$ r = 0 \$ para evitar división por cero.
+La función `f(double x, double y)` calcula el valor de $z\$ para cada par $\(x, y)\$, manejando el caso especial \$r=0\$ para evitar división por cero.
 - **Configuración de la cuadrícula:**
-El rango de \$ x \$ y \$ y \$ es de -8 a 8, con 41 puntos en cada eje, formando una malla de 41x41.
+El rango de \$x\$ y \$y\$ es de -8 a 8, con 41 puntos en cada eje, formando una malla de 41x41.
 - **Generación de datos:**
-Se calcula \$ z \$ para cada punto de la cuadrícula y se guarda en un archivo `surface_data.dat` compatible con Gnuplot.
+Se calcula \$z\$ para cada punto de la cuadrícula y se guarda en un archivo `surface_data.dat` compatible con Gnuplot.
 - **Creación del script de Gnuplot:**
 Se genera un archivo `plot_surface.gp` con instrucciones para graficar la superficie 3D.
 - **Visualización automática:**
@@ -41,7 +41,7 @@ Existen scripts equivalentes en Octave y Scilab que abordan el mismo problema, p
 
 ### Resumen de pasos del script en C++
 
-1. **Definir la función** \$ z = \frac{\sin(r)}{r} \$ para cada $(x, y)$.
+1. **Definir la función** \$z=\frac{\sin(r)}{r}\$ para cada $(x, y)$.
 2. **Configurar la cuadrícula**: rango de -8 a 8, 41 puntos por eje.
 3. **Generar archivo de datos**: almacenar puntos $(x, y, z)$.
 4. **Crear script de Gnuplot**: instrucciones para graficar la superficie.
