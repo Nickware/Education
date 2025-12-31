@@ -2,7 +2,7 @@
 
 # Simulación de la función sin(x) usando EJS (Easy Java Simulations) (En edición)
 
-Este proyecto muestra cómo crear una simulación interactiva de la función \$ \sin(x) \$ utilizando Easy Java Simulations
+Este proyecto muestra cómo crear una simulación interactiva de la función $\sin(x)$ utilizando Easy Java Simulations
 
 ## Requisitos
 
@@ -65,7 +65,7 @@ Agregar elementos interactivos en la pestaña **Vista GUI**:
 
 - **Slider** para ajustar `dx` (rango sugerido: 0.01 a 0.5).
 - **Botón de inicio/pausa** para controlar la ejecución.
-- **Campo de texto** para mostrar el valor actual de \$ x \$ y \$ \sin(x) \$.
+- **Campo de texto** para mostrar el valor actual de $x$ y $\sin(x)$.
 
 ---
 
@@ -84,4 +84,4 @@ Agregar elementos interactivos en la pestaña **Vista GUI**:
 
 ---
 
-Deberá haber creado su primera simulación de \$ \sin(x) \$ con EJS.
+Deberá haber creado su primera simulación de $\sin(x)$ con EJS.
