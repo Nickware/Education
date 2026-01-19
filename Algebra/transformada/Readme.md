@@ -3,15 +3,15 @@
 ### Propósito General
 Este script implementa un **entorno educativo interactivo** (classroom) en Octave para el estudio y visualización de transformaciones lineales en el plano complejo, diseñado como una herramienta de aprendizaje práctico.
 
-### ** Funcionalidades Principales
+### Funcionalidades Principales
 
-#### 1. Menú Interactivo 
+### 1. Menú Interactivo 
 Sistema de 7 opciones que permite al usuario:
 - **Ejecutar ejemplos predefinidos**
 - **Introducir sus propios parámetros**
 - **Visualizar resultados numéricos y gráficos**
 
-#### 2. Transformaciones Implementadas
+### 2. Transformaciones Implementadas
 1. **Rotación Compleja** - Ejemplo demostrativo
 2. **Escalamiento Complejo** - Interactivo con entrada de usuario
 3. **Transformación de Möbius** - Interactivo con parámetros personalizables
