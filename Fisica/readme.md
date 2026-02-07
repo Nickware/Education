@@ -71,7 +71,7 @@
   - Simulación de escenarios
   - Análisis de sensibilidad
 
-## Estructura Didáctica
+  ## Estructura Lógica 
 ```mermaid
 flowchart TD
     A[Fundamentos] --> B[Cinemática 2D]
