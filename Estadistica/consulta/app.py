@@ -5,7 +5,6 @@
 # La aplicación permite cargar un archivo Excel con los resultados, seleccionar el año y los candidatos,
 # y visualizar los datos en gráficos y tablas.  
 # Requiere las librerías: dash, dash-bootstrap-components, pandas, io, base64, colorsys
-# Autor: JNTorresR
 # Fecha: 2025-08-15
 
 # Importar librerías necesarias
@@ -44,7 +43,7 @@ app.title = "Análisis de Votos Universitarios - UD"
 app.layout = dbc.Container([
     dbc.Row(
         dbc.Col([
-            html.H1("📊 Participación Electoral UD", className="text-center my-4"),
+            html.H1(" Participación Electoral UD", className="text-center my-4"),
             dcc.Upload(
                 id='upload-data',
                 children=html.Div(['Arrastra o selecciona el archivo Excel']),
@@ -72,7 +71,7 @@ app.layout = dbc.Container([
     
     dbc.Row([
         dbc.Col([
-            html.Label("🗓️ Año:", className="font-weight-bold"),
+            html.Label(" Año:", className="font-weight-bold"),
             dcc.Dropdown(
                 id='year-dropdown', 
                 options=[], 
@@ -81,7 +80,7 @@ app.layout = dbc.Container([
             )
         ], md=6),
         dbc.Col([
-            html.Label("👤 Candidato(s):", className="font-weight-bold"),
+            html.Label(" Candidato(s):", className="font-weight-bold"),
             dcc.Dropdown(
                 id='candidate-dropdown', 
                 options=[], 
@@ -373,7 +372,7 @@ def update_outputs(selected_year, selected_candidates, contents):
         return fig, table_data, columns, color_conditions, total_display
     
     except Exception as e:
-        error_msg = f"❌ Error: {str(e)}"
+        error_msg = f" Error: {str(e)}"
         print(f"Error detallado: {str(e)}")
         return {}, [], [], [], html.Div(error_msg, style={'color': 'red'})
 
