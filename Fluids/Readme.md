@@ -8,18 +8,18 @@ $$
 z = \frac{\sin(\sqrt{x^2 + y^2})}{\sqrt{x^2 + y^2}}
 $$
 
-Esta función, conocida como el **sinc bidimensional**, es famosa por su pico central y anillos decrecientes, y se utiliza frecuentemente para ilustrar conceptos en matemáticas, física e ingeniería.
+Esta función, conocida como el **sinc bidimensional**, es famosa por su pico central y anillos decrecientes y se utiliza frecuentemente para ilustrar conceptos en matemáticas, física e ingeniería.
 
 ### Funcionamiento del script en C++
 
 - **Definición matemática:**
 La función `f(double x, double y)` calcula el valor de $z\$ para cada par $\(x, y)\$, manejando el caso especial \$r=0\$ para evitar división por cero.
 - **Configuración de la cuadrícula:**
-El rango de \$x\$ y \$y\$ es de -8 a 8, con 41 puntos en cada eje, formando una malla de 41x41.
+El rango de \$x\$ y \$y\$ es de $-8$ a $8$, con $41$ puntos en cada eje, formando una malla de $41x41$.
 - **Generación de datos:**
 Se calcula \$z\$ para cada punto de la cuadrícula y se guarda en un archivo `surface_data.dat` compatible con Gnuplot.
 - **Creación del script de Gnuplot:**
-Se genera un archivo `plot_surface.gp` con instrucciones para graficar la superficie 3D.
+Se genera un archivo `plot_surface.gp` con instrucciones para graficar la superficie $3D$.
 - **Visualización automática:**
 El script ejecuta Gnuplot para mostrar la superficie de la función.
 
@@ -54,4 +54,4 @@ Existen scripts equivalentes en Octave y Scilab que abordan el mismo problema, p
 - **Extensión:** Puede modificarse para graficar otras funciones o cambiar el rango de visualización.
 
 > **Nota:**
-> Octave y Scilab permiten realizar este tipo de visualización de manera más directa, gracias a sus funciones integradas para manejo de matrices y gráficos 3D, lo que los hace especialmente útiles para prototipos rápidos y análisis exploratorio.
+> Octave y Scilab permiten realizar este tipo de visualización de manera más directa, gracias a sus funciones integradas para el manejo de matrices y gráficos 3D, lo que los hace especialmente útiles para prototipos rápidos y análisis exploratorio.
