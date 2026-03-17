@@ -42,7 +42,7 @@
   - Organización de datos en matrices
   - Precisión decimal controlada
 
-## 6. Herramientas Pedagógicas
+## 6. Herramientas
 - **Ejercicios propuestos**
   - Extensión a resistencia del aire
   - Cálculo de alcance máximo
