@@ -131,4 +131,3 @@ disp('=== 9.1 Para aprender más ===');
 disp('* Documentación oficial de Octave: help <comando>');
 disp('* Libro: "Numerical Methods for Physics" (A. Garcia)');
 disp('* Curso: "Computational Physics" (Coursera)');
-disp('* Repositorio: GitHub/octave-physics-examples');

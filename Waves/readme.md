@@ -74,13 +74,9 @@ pkg install -forge audio # Para grabación/reproducción de audio
 
 ---
 
-## Licencia
-Este proyecto se distribuye bajo licencia MIT. Ver archivo `LICENSE` para más detalles.
-
----
-
 ## Futuras Contribuciones
-¡Se aceptan contribuciones vía pull requests! Por favor:
+Se aceptan contribuciones vía pull requests
+
 - Mantener el código compatible con Octave
 - Documentar nuevos aportes en el README
 - Incluir ejemplos de uso
