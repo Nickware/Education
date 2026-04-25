@@ -1,3 +1,10 @@
+// surface_plot.cpp
+// This program generates a 3D surface plot of the function z = sin(sqrt(x^2 + y^2)) / sqrt(x^2 + y^2) using gnuplot. It creates a data file and a gnuplot script, then executes the script to display the plot
+// Compile with: g++ surface_plot.cpp -o surface_plot
+// Note: Ensure gnuplot is installed and accessible in your system's PATH to run this program successfully.
+// This code is provided as an example and may require adjustments based on your specific environment and gnuplot configuration.
+// Include necessary headers
+
 #include <iostream>
 #include <fstream>
 #include <cmath>

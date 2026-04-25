@@ -1,3 +1,30 @@
+# Conceptos básicos de programación en Octave para física
+# Este script introduce los fundamentos de programación en Octave aplicados a problemas de física,
+# incluyendo cinemática, análisis paramétrico, interacción con el usuario y manejo de datos.
+# Autor: [Tu Nombre]
+# Fecha: [Fecha de creación]
+# Contenido:
+# 1. Configuración inicial
+# 2. Fundamentos de programación
+# 3. Cinemática en 2D
+# 4. Análisis paramétrico en 3D
+# 5. Interacción con usuario
+# 6. Manejo de datos
+# 7. Buenas prácticas y consejos
+# 8. Ejercicios propuestos
+# 9. Recursos adicionales
+# Nota: Este código es un punto de partida y puede ser modificado para incluir más funcionalidades o adaptarse a diferentes problemas de física.
+# Recomendaciones:
+# - Asegúrese de tener Octave instalado para ejecutar este código.
+# - Comente su código para explicar la lógica y la física detrás de cada sección.
+# - Use funciones para organizar su código y facilitar la reutilización.
+# - Verifique sus resultados con casos conocidos para asegurarse de que su código funciona correctamente.
+# ¡Vamos a programar física con Octave!
+# Este script es una introducción a la programación en Octave para estudiantes de física, cubriendo conceptos básicos y aplicaciones prácticas. 
+# Puede ser utilizado como material de referencia o como base para proyectos más avanzados en física computacional.
+# Se recomienda seguir el orden de las secciones para una mejor comprensión y práctica de los conceptos presentados.
+# Al final del script, se incluyen ejercicios propuestos para que los estudiantes puedan aplicar lo aprendido y recursos adicionales para profundizar en el tema.
+
 %% 1. Configuración inicial
 clc; clear; close all;  % Limpiar consola, variables y figuras
 format short;          % Formato numérico compacto
