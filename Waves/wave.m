@@ -1,3 +1,20 @@
+# Análisis de una señal de audio en MATLAB/Octave
+# Este código carga un archivo de audio, aplica una ventana de Hann para minimizar efectos de borde,
+# realiza un análisis espectral utilizando la Transformada Rápida de Fourier (FFT) y visualiza tanto la señal temporal como su espectro de frecuencias.
+# Asegúrate de tener el archivo 'test.wav' en el mismo directorio que este script o ajusta la ruta según sea necesario.
+# Requiere los paquetes de audio y signal en Octave.
+# Autor: N.Torres
+# Fecha: Update 24/abr/2026
+# Nota: Este código es compatible con MATLAB, pero se ha adaptado para funcionar en Octave utilizando los paquetes correspondientes.
+# Para ejecutar este código, asegúrate de tener Octave instalado y los paquetes necesarios cargados. Puedes instalar los paquetes utilizando el comando 'pkg install' en Octave.
+# Ejemplo de uso:
+# 1. Guarda este código en un archivo llamado 'wave.m'.
+# 2. Coloca un archivo de audio llamado 'test.wav' en el mismo directorio.
+# 3. Ejecuta el script en Octave para ver los resultados.   
+# Cargar paquetes necesarios
+# En Octave, es necesario cargar explícitamente los paquetes para audio y procesamiento de señales.
+# En MATLAB, estos paquetes están integrados, por lo que no es necesario cargarlos.
+# Si estás utilizando MATLAB, puedes comentar las siguientes líneas de código.
 pkg load audio;  % Cargar paquete de audio 
 pkg load signal; % Cargar paquete de signal
 
