@@ -27,7 +27,7 @@ Repositorio con dos rutinas de Octave para procesamiento de audio:
 octave waves.m
 ```
 ## Script : `waves.v.2`
-**Propósito**: Carga el archivo de audio, análisis de fase y magnitud mediante FFT y descomposición en  componentes individuales de seno/coseno.
+Propósito: Carga el archivo de audio, análisis de fase y magnitud mediante FFT y descomposición en  componentes individuales de seno/coseno.
 
 ### Características Clave
 - Carga de archivos
@@ -43,7 +43,7 @@ octave waves.m
 octave waves.v.2.m
 ```
 ## Prerrequisitos
-1. **Octave** (versión 7.3.0 o superior)
+1. Octave (versión 7.3.0 o superior)
 2. Paquetes de Octave:
 > Paquete signal
 ```matlab
@@ -58,7 +58,7 @@ pkg install -forge audio # Para grabación/reproducción de audio
 ## Instrucciones de Uso
 1. **Análisis básico**:
 - Ejecutar `waves.m`
-- Resultados: `audio.wav` + gráficas integrados
+- Resultados: `audio.wav` + gráficas integradas
 
 2. **Para descomposición avanzada**:
 - Cargar archivo `test.wav` en el mismo directorio
