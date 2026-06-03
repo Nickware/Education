@@ -15,8 +15,7 @@
 # 3. Ejecutar el script en Octave para ver los resultados.   
 # Cargar paquetes necesarios
 # En Octave, es necesario cargar explícitamente los paquetes para audio y procesamiento de señales.
-# En MATLAB, estos paquetes están integrados, por lo que no es necesario cargarlos.
-# Si está utilizando MATLAB, puede comentar las siguientes líneas de código.
+
 pkg load audio;  % Cargar paquete de audio;  
 pkg load signal; % Cargar paquete de signal
 
