@@ -48,10 +48,6 @@ Este repositorio es una colección de materiales, recursos y herramientas educat
 1. Explorar  los ejercicios y materiales teóricos según el área, nivel e interés.
 2. Utilizar los ejemplos de código para practicar y experimentar.
 3. Consultar las soluciones para comparar y aprender diferentes enfoques.
-4. Amplíar o contribuir con nuevos ejercicios o recursos si lo deseas.
-
-## Licencia
-
-Consultar el archivo `LICENSE` del repositorio para conocer las condiciones de uso y distribución.
+4. Ampliar o contribuir con nuevos ejercicios o recursos si lo deseas.
 
 ---
