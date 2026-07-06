@@ -168,5 +168,3 @@ disp('2. Comente su código explicando la lógica');
 disp('3. Utilice ; para suprimir salidas no deseadas');
 disp('4. Organice su código en secciones lógicas');
 disp('5. Guarde su trabajo frecuentemente');
-
-disp('¡Feliz programación en Octave!');

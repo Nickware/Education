@@ -1,5 +1,3 @@
----
-
 # Simulación de la función sin(x) usando EJS (Easy Java Simulations) (En edición)
 
 Este proyecto muestra cómo crear una simulación interactiva de la función $\sin(x)$ utilizando Easy Java Simulations
@@ -7,8 +5,6 @@ Este proyecto muestra cómo crear una simulación interactiva de la función $\s
 ## Requisitos
 
 - Descargar [EJS](https://www.um.es/fem/EjsWiki/pmwiki.php) e instalar en el equipo.
-
----
 
 ## 1. Configuración inicial del modelo
 
