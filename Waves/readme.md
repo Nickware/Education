@@ -27,7 +27,7 @@ Repositorio con dos rutinas de Octave para procesamiento de audio:
 octave waves.m
 ```
 ## Script : `waves.v.2`
-Propósito: Carga el archivo de audio, análisis de fase y magnitud mediante FFT y descomposición en  componentes individuales de seno/coseno.
+Propósito: Carga el archivo de audio, analiza la fase y la magnitud mediante FFT y descomposición en componentes individuales de seno/coseno.
 
 ### Características Clave
 - Carga de archivos
@@ -73,10 +73,3 @@ pkg install -forge audio # Para grabación/reproducción de audio
 - Comparar ese zoom con la función analítica de seno y coseno
 
 ---
-
-## Futuras Contribuciones
-Se aceptan contribuciones vía pull requests
-
-- Mantener el código compatible con Octave
-- Documentar nuevos aportes en el README
-- Incluir ejemplos de uso
