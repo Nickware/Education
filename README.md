@@ -50,4 +50,24 @@ Este repositorio es una colección de materiales, recursos y herramientas educat
 3. Consultar las soluciones para comparar y aprender diferentes enfoques.
 4. Ampliar o contribuir con nuevos ejercicios o recursos si lo deseas.
 
+## Perspectivas de uso y crecimiento
+
+### Propuestas
+
+- Indicar en cada proyecto sus objetivos de aprendizaje, conocimientos previos y forma de ejecución.
+- Mantener los README de las carpetas como guías detalladas y este documento como mapa general del repositorio.
+- Incorporar ejemplos verificables y, cuando corresponda, pruebas que faciliten comprobar los resultados.
+
+### Casos de uso
+
+- Un docente selecciona materiales de distintas áreas para preparar una actividad práctica.
+- Un estudiante explora un concepto, ejecuta el ejemplo correspondiente y contrasta el resultado con la explicación.
+- Una persona autodidacta recorre proyectos independientes según sus intereses y herramientas disponibles.
+
+### Desarrollos posibles
+
+- Mejorar la navegación entre áreas, proyectos y recursos relacionados.
+- Registrar requisitos y comandos de ejecución comprobados para cada herramienta del repositorio.
+- Ampliar gradualmente el catálogo con proyectos pequeños, autocontenidos y documentados a su nivel.
+
 ---

@@ -60,3 +60,17 @@ flatpak-spawn --host octave --persist --eval "cd('$PWD/Algebra/transformada'); c
 7. **Salir.**
 
 Las opciones que transforman puntos muestran los valores antes y después, y abren una gráfica comparativa. La opción 6 crea su propia gráfica de la malla.
+
+### Casos de exploración
+
+- **Conservar distancias:** comparar un conjunto de puntos antes y después de una rotación y verificar que las distancias entre pares no cambian.
+- **Identificar una singularidad:** usar `w = 1/z` (`a=0`, `b=1`, `c=1`, `d=0`) y observar qué ocurre cerca de `z=0`, excluyendo ese punto porque el denominador se anula.
+- **Relacionar exponencial y geometría:** transformar puntos del eje imaginario y observar cómo sus imágenes se distribuyen sobre el círculo unitario.
+- **Contrastar linealidad:** probar una transformación lineal con combinaciones de vectores y compararla con `exp(z)`, que no satisface en general la propiedad aditiva.
+
+### Propuestas de desarrollo
+
+- Permitir ingresar el ángulo de rotación y elegir entre varios conjuntos de puntos de prueba.
+- Validar dimensiones de la matriz y del vector, y advertir antes de evaluar parámetros de Möbius que anulen el denominador.
+- Ampliar las gráficas para transformar segmentos, curvas y mallas con correspondencia visual entre puntos.
+- Añadir pruebas numéricas pequeñas para propiedades esperadas, como la conservación de distancias en una rotación y los valores de referencia de `exp(z)`.
