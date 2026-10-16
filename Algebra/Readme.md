@@ -1,16 +1,9 @@
 
-## Características comunes
+# Álgebra
 
-| Característica          | Cuaderno 1                     | Cuaderno 2                     |
-|-------------------------|--------------------------------|--------------------------------|
-| **Organización**        | Secciones lógicas              | Estructura clara por temas     |
-| **Visualización**       | Gráficos 2D y 3D               | Comparación de transformaciones|
-| **Ejemplos prácticos**  | Álgebra lineal                 | Ajuste de curvas               |
-| **Buenas prácticas**    | Consejos de programación       | Tips para experimentación      |
-| **Extensibilidad**      | Temas intermedios/avanzados    | Temas para profundizar         |
+Esta carpeta reúne subproyectos independientes. Este README funciona como índice; cada proyecto documenta su propio contenido y cómo ejecutarlo.
 
-**Recomendaciones para uso:**
-1. Comenzar con Cuaderno 1 para fundamentos
-2. Usar Cuaderno 2 para aplicaciones específicas
-3. Personalizar con ejemplos propios
-4. Expandir con los temas avanzados sugeridos
+| Subproyecto | Enfoque | Documentación |
+|---|---|---|
+| `basic` | Ejercicio de programación sobre números felices. | [README de basic](basic/Readme.md) |
+| `transformada` | Classroom interactivo de Octave para explorar transformaciones de números complejos. | [README de transformada](transformada/Readme.md) |
