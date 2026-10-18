@@ -21,7 +21,7 @@ Este repositorio es una colección de materiales, recursos y herramientas educat
 ## Estructura típica del repositorio
 
 - `/Algebra`  
-  Cuadernos en Octave con aplicaciones básicas a  vectores, matrices, sistemas de ecuaciones lineales.
+  Proyectos y materiales del área. Consulta la documentación de cada subproyecto, como [transformada](Algebra/transformada/Readme.md).
 - `/Calculo`  
   Cuadernos en Octave con aplicaciones básicas de  límites, continuidad, derivadas, funciones, polinomios, gráficas.
 - `/EJS`

@@ -1,95 +1,62 @@
-## Classroom de Transformaciones Lineales Complejas
+## Transformaciones en el plano complejo
 
-### Propósito General
-Este script implementa un **entorno educativo interactivo** (classroom) en Octave para el estudio y visualización de transformaciones lineales en el plano complejo, diseñado como una herramienta de aprendizaje práctico.
+Classroom interactivo en Octave para aplicar transformaciones a números complejos, ver los resultados numéricos y comparar sus representaciones gráficas.
 
-### Funcionalidades Principales
+> La rotación y el escalamiento por un factor complejo son transformaciones lineales del plano complejo. La exponencial y la transformación de Möbius son ejemplos de funciones complejas, pero no son lineales en general.
 
-### 1. Menú Interactivo 
-Sistema de 7 opciones que permite al usuario:
-- **Ejecutar ejemplos predefinidos**
-- **Introducir sus propios parámetros**
-- **Visualizar resultados numéricos y gráficos**
+### Requisitos
 
-### 2. Transformaciones Implementadas
-1. **Rotación Compleja** - Ejemplo demostrativo
-2. **Escalamiento Complejo** - Interactivo con entrada de usuario
-3. **Transformación de Möbius** - Interactivo con parámetros personalizables
-4. **Exponencial Compleja** - Ejemplo demostrativo  
-5. **Transformación Lineal General** - Con matrices 2x2 complejas
-6. **Visualización de Mallas** - Análisis geométrico
+- GNU Octave instalado.
+- Un toolkit gráfico de Octave disponible (por ejemplo, Qt, FLTK o gnuplot) para abrir las figuras.
+- No se requieren paquetes adicionales.
 
-### 3. Valor Educativo
+### Ejecutar desde la interfaz de Octave
 
-#### Para Estudiantes
-- **Aprendizaje experimental** mediante prueba y error
-- **Visualización inmediata** de efectos geométricos
-- **Comprensión intuitiva** de conceptos abstractos
-- **Verificación numérica** de propiedades matemáticas
+1. Abre Octave.
+2. Cambia el directorio actual a `Algebra/transformada` dentro del repositorio. Por ejemplo:
 
-#### Conceptos Matemáticos Abordados
-- Aritmética de números complejos
-- Representación geométrica en el plano complejo
-- Propiedades de linealidad
-- Transformaciones conformes
-- Efectos de multiplicación compleja
+        ```octave
+        cd('/ruta/al/repositorio/Algebra/transformada')
+        ```
 
-### 4. Características Técnicas
+3. Inicia el classroom:
 
-#### Entrada de Datos:
-```matlab
-z = input('Ingresa vector complejo z (ej: [1+1i, 2-1i]): ');
+        ```octave
+        classroom_transformaciones_complejas()
+        ```
+
+4. Escribe el número de una opción cuando aparezca el menú y responde a las preguntas de entrada.
+5. Selecciona `7` para salir.
+
+### Ejecutar desde una terminal Bash
+
+Desde el directorio raíz del repositorio, ejecuta:
+
+```bash
+cd Algebra/transformada
+octave --persist --eval "classroom_transformaciones_complejas()"
 ```
-- **Flexible**: acepta vectores complejos arbitrarios
-- **Guíado**: ejemplos claros del formato esperado
 
-#### Procesamiento:
-```matlab
-w = transformacion_mobius(z, a, b, c, d);
+Octave mostrará el menú en la terminal; ingresa las opciones y valores solicitados. `--persist` mantiene abierta la sesión de Octave después de salir del menú. No uses `--no-gui` si quieres que las figuras se abran en una ventana gráfica.
+
+Si prefieres iniciar Octave primero, ejecuta `octave` desde esa carpeta y luego escribe `classroom_transformaciones_complejas()` en el prompt de Octave.
+
+#### VS Code instalado como Flatpak
+
+Si la terminal integrada no encuentra Octave porque está instalado en el sistema anfitrión, desde la raíz del repositorio puedes iniciarlo así:
+
+```bash
+flatpak-spawn --host octave --persist --eval "cd('$PWD/Algebra/transformada'); classroom_transformaciones_complejas()"
 ```
-- **Modular**: funciones especializadas para cada transformación
-- **Numérico**: cálculo preciso con aritmética compleja
 
-#### Salida de Resultados:
-```matlab
-fprintf('z%d = %6.2f + %6.2fi -> w%d = %6.2f + %6.2fi\n', ...
-        i, real(z(i)), imag(z(i)), i, real(w(i)), imag(w(i)));
-```
-- **Formateada**: presentación clara de números complejos
-- **Comparativa**: muestra entrada y salida lado a lado
+### Opciones del menú
 
-#### Visualización:
-- **Gráficos comparativos** (antes/después)
-- **Conexiones visuales** entre puntos correspondientes
-- **Mallas transformadas** para análisis global
+1. **Rotación compleja:** aplica una rotación de ejemplo de 45 grados.
+2. **Escalamiento complejo:** solicita un vector de entrada y un factor real o complejo. Ejemplo de vector: `[1+1i, 2-1i]`.
+3. **Transformación de Möbius:** solicita el vector y los parámetros `a`, `b`, `c` y `d` para calcular `(a*z+b)/(c*z+d)`. Evita valores que hagan cero el denominador.
+4. **Exponencial compleja:** muestra el efecto de `exp(z)` sobre puntos del eje imaginario.
+5. **Transformación lineal general:** aplica una matriz compleja de `2x2` a un vector columna de dos elementos. Por ejemplo, usa `[1+1i; 2-1i]` y `[1, 0; 0, 1]`.
+6. **Visualizar malla:** compara una malla del plano complejo con su imagen bajo `exp(z)`.
+7. **Salir.**
 
-### 5. Contexto de Aplicación
-
-#### Cursos Relacionados:
-- Variable Compleja
-- Álgebra Lineal
-- Análisis Matemático
-- Geometría Diferencial
-
-#### Nivel Educativo:
-- **Pregrado** en matemáticas, física, ingeniería
-- **Autodidactas** en matemáticas avanzadas
-- **Docentes** como material de demostración
-
-### Ventajas Pedagógicas
-
-1. **Inmediatez**: Resultados instantáneos
-2. **Interactividad**: Participación activa del estudiante  
-3. **Retroalimentación**: Corrección inmediata de errores
-4. **Exploración**: Libertad para probar casos límite
-5. **Multimodal**: Combinación de números y gráficos
-
-### Ejemplo de Flujo de Aprendizaje
-
-1. **Teoría**: Estudio conceptual de transformaciones
-2. **Experimentación**: Uso del classroom para ver ejemplos
-3. **Verificación**: Comprobación de propiedades matemáticas
-4. **Generalización**: Prueba con nuevos parámetros
-5. **Análisis**: Interpretación de resultados visuales
-
-Este script representa una **herramienta pedagógica poderosa** que transforma conceptos abstractos de álgebra lineal compleja en experiencias de aprendizaje concretas y accesibles.
+Las opciones que transforman puntos muestran los valores antes y después, y abren una gráfica comparativa. La opción 6 crea su propia gráfica de la malla.
